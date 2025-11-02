@@ -1,0 +1,49 @@
+local Rayfield=loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
+local Window=Rayfield:CreateWindow({
+ Name="Tb Keysystem",
+ LoadingTitle="Tb Keysystem",
+ LoadingSubtitle="by Slivkineepy",
+ ConfigurationSaving={Enabled=false,FolderName=nil},
+ Discord={Enabled=false,Invite="",RememberJoins=true},
+ KeySystem=true,
+ KeySettings={
+  Title="Tb Keysystem",
+  Subtitle="Enter key to access",
+  Note="Get key from creator*",
+  FileName="TbKey",
+  SaveKey=false,
+  GrabKeyFromSite=true,
+  Key=(function()
+   local p={"h","t","t","p","s",":","/","/","p","a","s","t","e","b","i","n",".","c","o","m","/","r","a","w","/","h","z","T","i","T","r","g","B"}
+   return{table.concat(p)}
+  end)()
+ }
+})
+
+Rayfield:Notify({
+ Title="Success!",
+ Content="Key accepted. Access to Tb Script GUI granted.",
+ Duration=4,
+ Image=4484899435,
+})
+
+local Tab=Window:CreateTab("Main",4484899435)
+
+local Button=Tab:CreateButton({
+ Name="Tb Script GUI",
+ Info="Launches main script",
+ Interact='Launch',
+ Callback=function()
+  Rayfield:Destroy()
+  pcall(function()
+   local r=request or syn.request or http_request
+   local parts={"h","t","t","p","s",":","/","/","r","a","w",".","g","i","t","h","u","b","u","s","e","r","c","o","n","t","e","n","t",".","c","o","m","/","e","s","m","u","h","a","n","o","v","m","u","h","a","m","m","e","d","a","l","i","4","7","-","h","u","b","/","T","e","s","t","/","m","a","i","n","/","V","3"}
+   local url=table.concat(parts)
+   local res=r and r({Url=url,Method="GET"})
+   if res and res.StatusCode==200 then
+    loadstring(res.Body)()
+   end
+  end)
+ end,
+})
