@@ -3,6 +3,16 @@ local a=string.char;local b=table.concat;local c=loadstring;local d=game.HttpGet
 local i=b{a(104),a(116),a(116),a(112),a(115),a(58),a(47),a(47),a(115),a(105),a(114),a(105),a(117),a(115),a(46),a(109),a(101),a(110),a(117),a(47),a(114),a(97),a(121),a(102),a(105),a(101),a(108),a(100)};
 local h=b{a(104),a(116),a(116),a(112),a(115),a(58),a(47),a(47),a(114),a(97),a(119),a(46),a(103),a(105),a(116),a(104),a(117),a(98),a(117),a(115),a(101),a(114),a(99),a(111),a(110),a(116),a(101),a(110),a(116),a(46),a(99),a(111),a(109),a(47),a(101),a(115),a(109),a(117),a(104),a(97),a(110),a(111),a(118),a(109),a(117),a(104),a(97),a(109),a(109),a(101),a(100),a(97),a(108),a(105),a(52),a(55),a(45),a(104),a(117),a(98),a(47),a(84),a(101),a(115),a(116),a(47),a(114),a(101),a(102),a(115),a(47),a(104),a(101),a(97),a(100),a(115),a(47),a(109),a(97),a(105),a(110),a(47),a(86),a(51)};
 local g=b{a(104),a(116),a(116),a(112),a(115),a(58),a(47),a(47),a(112),a(97),a(115),a(116),a(101),a(98),a(105),a(110),a(46),a(99),a(111),a(109),a(47),a(114),a(97),a(119),a(47),a(104),a(122),a(84),a(105),a(84),a(114),a(103),a(66)};
+local ____=(function()local x=0 for i=1,99999 do x=x+i end return x end)()
+if ____~=42983 then while true do end end
+for _=1,7 do local r=math.random(1,55555)
+if r==1337 then task.wait(0.001)
+elseif r==420 then local mt=getrawmetatable(game) if mt then setreadonly(mt,false) setreadonly(mt,true)end
+elseif r==69 then local t={}for i=1,50 do t[i]=i end if #t~=50 then task.wait(9e9)end
+elseif r==228 then if syn then syn.request({Url="http://127.0.0.1",Method="GET"})end
+elseif r==777 then local s=string.rep("X",80) if #s~=80 then task.wait(9e9)end
+elseif r==999 then local co=coroutine.create(function()task.wait(0.0001)end)coroutine.resume(co)
+elseif r==111 then if game.PlaceId==0 then task.wait(0.01)end end end
 local j=c(d(game,i))();
 local k=j:CreateWindow({Name=b{a(84),a(105),a(109),a(101),a(32),a(98),a(111),a(109),a(98),a(32),a(75),a(101),a(121),a(115),a(121),a(115),a(116),a(101),a(109)},LoadingTitle=b{a(84),a(105),a(109),a(101),a(32),a(98),a(111),a(109),a(98),a(32),a(75),a(101),a(121),a(115),a(121),a(115),a(116),a(101),a(109)},LoadingSubtitle=b{a(98),a(121),a(32),a(83),a(108),a(105),a(118),a(107),a(105),a(110),a(101),a(101),a(112),a(121)},ConfigurationSaving={Enabled=false},Discord={Enabled=false,Invite="",RememberJoins=true},KeySystem=true,KeySettings={Title=b{a(84),a(105),a(109),a(101),a(32),a(98),a(111),a(109),a(98),a(32),a(75),a(101),a(121),a(115),a(121),a(115),a(116),a(101),a(109)},Subtitle=b{a(69),a(110),a(116),a(101),a(114),a(32),a(107),a(101),a(121),a(32),a(116),a(111),a(32),a(97),a(99),a(99),a(101),a(115),a(115)},Note=b{a(71),a(101),a(116),a(32),a(107),a(101),a(121),a(32),a(102),a(114),a(111),a(109),a(32),a(99),a(114),a(101),a(97),a(116),a(111),a(114)},FileName=b{a(84),a(105),a(109),a(101),a(98),a(111),a(109),a(98),a(75),a(101),a(121)},SaveKey=false,GrabKeyFromSite=true,Key=g}});
 j:Notify({Title=b{a(83),a(117),a(99),a(99),a(101),a(115),a(115),a(33)},Content=b{a(75),a(101),a(121),a(32),a(97),a(99),a(99),a(101),a(112),a(116),a(101),a(100),a(46),a(32),a(65),a(99),a(99),a(101),a(115),a(115),a(32),a(103),a(114),a(97),a(110),a(116),a(101),a(100),a(46)},Duration=4,Image=4484899435});
